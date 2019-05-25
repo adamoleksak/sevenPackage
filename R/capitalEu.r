@@ -2,7 +2,7 @@
 #' @description capitalEu provides functionality which enables to get capital city of some european countries
 #' @param country country
 #' @param displayWay way of displaying results
-#' @return capital city of given
+#' @return capital city of given country
 #' @export
 #' @importFrom data.table data.table
 #' @examples

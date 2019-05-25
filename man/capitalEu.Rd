@@ -12,7 +12,7 @@ capitalEu(country, displayWay)
 \item{displayWay}{way of displaying results}
 }
 \value{
-capital city of given
+capital city of given country
 }
 \description{
 capitalEu provides functionality which enables to get capital city of some european countries

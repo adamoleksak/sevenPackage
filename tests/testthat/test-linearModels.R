@@ -6,3 +6,4 @@ test_that("check, if number of coefficients is equal to number of independent va
   expect_equal(length(vCoeffs), ncol(data) - 1)
 
 })
+

@@ -16,11 +16,10 @@ plotM <- function(data, col1, col2){
   vData <- data[, c(col1, col2)]
   vHalf <- max(vData[, col1], na.rm = T)/2
   vMin <- min(vData[, col2], na.rm = T)
-  # line below is used for testing purpose
-  vTest <<- ifelse(vHalf > vMin, 1, 0)
+  if(ncol(vData) != 2) stop("Data to plot has more or less than 2 columns")
   if(vHalf < vMin) stop("Comparison of max value and min value in data is wrong")
   manipulate(
-    plot(data,
+    plot(vData,
          xlim = c(xMin, xMax),
          pch = as.numeric(pch),
          col = colors,

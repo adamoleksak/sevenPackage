@@ -11,8 +11,8 @@ cleanDirectory(path)
 Path should be ended without slash (/).}
 }
 \value{
-Directory without csv files, console output presents names of dropped csv's.
+directory without csv files, console output presents names of dropped csv's.
 }
 \description{
-Deletes all csv files from given directory. Use with caution.
+deletes all csv files from given directory. Use with caution.
 }

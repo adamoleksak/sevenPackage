@@ -1,9 +1,9 @@
 #' @title  Draws Coefficients Barplot
 #' @description linearModel is used to vizualize coefficients of linear models as barplot.
 #'     It can be used for any linear model equation.
-#' @param formula Linear Model Formula
-#' @param data Data To Model
-#' @return Barplot With Linear Model Coefficients Without Intercept
+#' @param formula Linear model formula
+#' @param data data to model
+#' @return barplot with linear model coefficients without intercept
 #' @export
 #' @importFrom stats quantile
 #' @importFrom stats lm

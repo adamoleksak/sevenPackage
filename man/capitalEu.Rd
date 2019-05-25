@@ -9,7 +9,7 @@ capitalEu(country, displayWay)
 \arguments{
 \item{country}{country}
 
-\item{displayWay}{way of displaying results}
+\item{displayWay}{way of displaying results, possible options: lower, upper, mix}
 }
 \value{
 capital city of given country

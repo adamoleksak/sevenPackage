@@ -9,10 +9,10 @@ linearModel(formula, data)
 \arguments{
 \item{formula}{Linear model formula}
 
-\item{data}{Data to model}
+\item{data}{data to model}
 }
 \value{
-Barplot with linear model coefficients without intercept
+barplot with linear model coefficients without intercept
 }
 \description{
 linearModel is used to vizualize coefficients of linear models as barplot.

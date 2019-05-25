@@ -8,17 +8,18 @@ The goal of a sevenPackage is to present few functionalities of R programming la
 Installation
 ------------
 
-You can install the released version of sevenPackage from [CRAN](https://CRAN.R-project.org) with:
+You can install the released version of sevenPackage from Github with:
 
 ``` r
-install.packages("sevenPackage")
+install_github("adamoleksak/sevenPackage")
 ```
 
 Example
 -------
 
-This is a basic example which shows you how to solve a common problem:
+This is a basic example which shows you how to solve a common problem in R:
 
 ``` r
-## basic example code
+# create a vector from 1 to 10
+# x <- c(1:10)
 ```
